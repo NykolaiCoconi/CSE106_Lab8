@@ -1,0 +1,128 @@
+.divS{
+	border: 1px solid black;
+	padding: 10px;
+	background-color: lightblue;
+}
+input[type="button"]{
+	font-size: 25px;
+	border: solid black 2px;
+	width: 100%;
+	border-collapse: collapse;
+}
+input[type="text"]{
+	background-color: white;
+	border: solid black 2px;
+	font-size: 25px;
+	width: 25%
+}
+.hide{
+	display: none;
+}
+.unCL{
+	text-align: left;
+}
+.unCR{
+	text-align: right;
+}
+.divMarg{
+	margin-top: 10%;
+  	margin-bottom: 10%;
+  	margin-right: 10%;
+  	margin-left: 10%;
+}
+.b1{
+	background-color: grey;
+	color: white;
+}
+.b2{
+	background-color: grey;
+	color: white;
+	font-size: 25px;
+	border: solid black 2px;
+	width: 15%;
+}
+.b1:focus{
+	background-color: orange;
+}
+
+.t1{
+	border: 1px solid black;
+	padding: 2px;
+	background-color: lightblue;
+	color: black;
+}
+.td1{
+	border: 1px solid black;
+	border-collapse: collapse;
+	color: black;
+}
+.colorR{
+   color: red;	
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+body{
+  background: #16a085;
+ }
+.content{
+  width: 450px;
+  height: auto;
+  margin: 0 auto;
+  padding: 30px;
+}
+.tablink{
+  background-color: #082d75;
+  color: white;
+  float: left;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+  margin-bottom:0;
+  border-collapse: collapse;
+}
+.border{
+  border-style: solid;
+  border-width: 2px 2px;
+  border-color:black;
+  border-collapse: collapse;
+}
+.noBorder{
+	border: none;
+}
+.divTab{
+	background-color: #082d75;
+  	color: white;
+}
+.colorSelect{
+	background-color: #125ae6;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script type=text/javascript src="{{url_for('static', filename='js/lab8_Java_Nykolai_Coconi.js') }}"></script>
+<script>
+function myFunction(b) {
+  var x = document.getElementById("yourclasses");
+  var y = document.getElementById("addcourses");
+  var b1 = document.getElementById("button1");
+  var b2 = document.getElementById("button2");	
+  if (b == 1){
+	x.style.display = "block";
+	y.style.display = "none";
+	b1.style.borderBottom = "none";
+	b2.style.borderLeft = "2px solid black";
+	b1.style.borderRight = "none";
+	b2.style.borderBottom = "2px solid black";
+	b1.style.backgroundColor = "#125ae6";
+	b2.style.backgroundColor = "#082d75";
+  }
+  if (b == 2){
+	y.style.display = "block";
+	x.style.display = "none";	
+	b2.style.borderBottom = "none";
+	b2.style.borderLeft = "none";
+	b1.style.borderRight = "2px solid black";
+	b1.style.borderBottom = "2px solid black";
+	b2.style.backgroundColor = "#125ae6";
+	b1.style.backgroundColor = "#082d75";
+  }
+}
+</script>
+<link rel="stylesheet" href="lab8_CSS_Nykolai_Coconi.css">
+    <title>Lab 8 Student</title>
+</head>
+<body>
+    <center>
+    <div class="divMarg">
+	<table>
+  		<tr>
+    			<td id="welcome"></td>
+			<td class="unCL" style="color:#16a085;">Welcome</td>
+			<td class="unCL" style="color:#16a085;">Welcome</td>
+			<td class="unCL" style="color:#16a085;">Welcome</td>
+    			<td><img src="ucmercedlogo.png" alt="UC Merced Logo" width="500" height="125"></td>
+			<td class="unCL" style="color:#16a085;">Welcome</td>
+			<td class="unCL" style="color:#16a085;">Welcome</td>
+			<td class="unCL"><button onclick="signOut()">Sign Out</button></td>
+  		</tr>
+	</table>
+	</br></br>
+	<div>
+	<div class="divTab colorSelect">
+		<button class="tablink border colorSelect" id="button1" style="border-bottom:0; border-right:0;" onclick="myFunction(1)">Your Courses</button>
+		<button class="tablink border" id="button2" onclick="myFunction(2)">Add Courses</button>
+		</br></br></br>
+		<div class="divTab colorSelect" id="yourclasses">
+		</div>
+		<div class="divTab colorSelect hide" id="addcourses">
+		</div>
+        </div>
+	</div>
+    	</div>
+    </center>
+</body>
+</html>
